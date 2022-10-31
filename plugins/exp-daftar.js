@@ -190,7 +190,7 @@ const listMessage = {
 
 'body':global.titlebot,
 
-'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/4374d16e373596c816754.jpg')).buffer(),
 
 'sourceUrl':'https://youtu.be/Ii32-zDfcrQ'}},
 
