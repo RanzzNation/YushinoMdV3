@@ -98,7 +98,7 @@ const listMessage = {
 
   text: `│›Please select your age at the bottom button...`,
 
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\n⚘ ᴄʀᴇᴀᴛᴇ ʙʏ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\n⚘ ᴄʀᴇᴀᴛᴇ ʙʏ ᴹᴿ᭄ Ranzz Nation ×፝֟͜×`,
 
   title: "▢━━━━「 Registration 」━━━━▢",
 
@@ -156,13 +156,13 @@ const listMessage = {
 
 ╰═┅═━––––––๑
 
-ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: ᴹᴿ᭄ King Of Bear ×፝֟͜×
+ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: ᴹᴿ᭄ Ranzz Nation ×፝֟͜×
 
 `
 
   let buttonMessage= {
 
-'document':{'url':'https://youtu.be/pwLZpdfO8AU'},
+'document':{'url':'https://youtu.be/Ii32-zDfcrQ'},
 
 'mimetype':global.ddocx,
 
@@ -180,7 +180,7 @@ const listMessage = {
 
 'externalAdReply':{
 
-'mediaUrl':'https://youtu.be/pwLZpdfO8AU',
+'mediaUrl':'https://youtu.be/Ii32-zDfcrQ',
 
 'mediaType':2,
 
@@ -192,7 +192,7 @@ const listMessage = {
 
 'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
 
-'sourceUrl':'https://youtu.be/pwLZpdfO8AU'}},
+'sourceUrl':'https://youtu.be/Ii32-zDfcrQ'}},
 
 'caption':cap,
 
