@@ -36,7 +36,7 @@ let pp = '6'
 
 let info = 
 `
-Belum Tau Mau Jual Apa:)
+Jasa Sewa By Ahmad ID:)
 `
   /*  {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (2 minggu)' },
 	    {title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
