@@ -1,16 +1,24 @@
-import { wikipedia } from '@bochilteam/scraper'
-let handler = async (m, { text, usedPrefix, command }) => {
-  if (!text) throw `Contoh penggunaan ${usedPrefix}${command} Minecraft`
-  let json = await wikipedia(text)
-  m.reply(`
-*${json.title}*
-${json.img}
+let fetch = require('node-fetch')
 
-${json.articles}
-`.trim())
+let handler = async (m, { text }) => {
+
+  if (!text) throw 'cari apa?'
+
+  let res = await fetch(`https://hadi-api.herokuapp.com/api/wiki?query=${text}`)
+
+  let json = await res.json()
+
+  if (json.status) m.reply(`*WIKIPEDIA*
+
+${json.result}`)
+
+  else throw 'not found'
+
 }
+
+
 handler.help = ['wikipedia'].map(v => v + ' <apa>')
 handler.tags = ['internet']
 handler.command = /^(wiki|wikipedia)$/i
 
-export default handler
+module.exports = handler
