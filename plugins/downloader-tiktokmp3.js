@@ -15,7 +15,7 @@ ptt: false, seconds: 0,contextInfo: {
     description: snh,
     title: "Nɪʜ...",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/0ef72854ea86cc8ad3fc7.png')).buffer(),
     sourceUrl: snh}}})
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
