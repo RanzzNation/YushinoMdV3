@@ -3,11 +3,11 @@ import fetch from 'node-fetch'
  let handler = async(m, { conn }) => { 
 
          let pp = fs.readFileSync('./thumbnail.jpg')
-         let gc1 = 'https://bit.ly/3ESNUnD'
+         let gc1 = 'https://telegra.ph/file/5412687378af9a53599aa.png'
          let caption = `*Mʏ Gᴄ Oғғɪᴄɪᴀʟ*`
          await conn.sendButtonDoc(m.chat, caption, wm, 'Owner', '.owner', m, { contextInfo: { 
              externalAdReply: {
-               sourceUrl: `${gc1}`,
+               sourceUrl: `${gc1}`,
                title: 'My Group Official', 
                body: 'Yushino Md',
                thumbnail: pp
