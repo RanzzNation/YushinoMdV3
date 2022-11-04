@@ -3,13 +3,17 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let krtu = `☰⃟⟣⟔ Yᴏᴜʀ Cᴀʀᴅ Iɴᴛʀᴏ ⟓⟢⃟
-┇⃟⟣⟜ *Nama:* 
-┇⃟⟣⟜ *Umur:* 
-┇⃟⟣⟜ *Alamat:*
-┇⃟⟣⟜ *Hobi:*
-┇⃟⟣⟜ *Pasangan:*
-┖┈┈┈╼╸╸╸╴╴╴ ╳
+let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
+│       *「 Kartu Intro 」*
+│ *Nama     :* 
+│ *Gender   :* 
+│ *Umur      :* 
+│ *Hobby    :* 
+│ *Kelas      :* 
+│ *Asal         :* 
+│ *Agama    :* 
+│ *Status     :* 
+╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
