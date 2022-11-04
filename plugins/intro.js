@@ -16,7 +16,7 @@ let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://youtu.be/VRD-TZTZCBk",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
+    description: "https://youtu.be/VRD-TZTZCBk", 
     title: 'Iɴᴛʀᴏᴄᴀᴅᴜᴛɪᴏɴ',
     body: wm,
     thumbnail: thumb,
