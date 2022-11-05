@@ -141,19 +141,12 @@ const listMessage = {
   let cap = `
 
   ━━━━ 「 *Successful Registration* 」━━━
-
   .
-
 ╭━━「 *ᴜsᴇʀs* 」
-
 │▸ *sᴛᴀᴛᴜs:* ☑️ sᴜᴄᴄᴇssғᴜʟ
-
 │▸ *ɴᴀᴍᴇ:* ${name}
-
 │▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
-
 │▸ *sɴ:* ${sn}
-
 ╰═┅═━––––––๑
 
 ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: ᴹᴿ᭄ Ranzz Nation ×፝֟͜×
