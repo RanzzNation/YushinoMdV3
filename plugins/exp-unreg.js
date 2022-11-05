@@ -12,7 +12,7 @@ let handler = async function (m, { args }) {
 
   user.registered = false
 
-  m.reply('📛Kamu Berhasil keluar dari database\n\nᴹᴿ᭄ Ranzz Nation×፝֟͜×')
+  m.reply('📛Kamu Berhasil keluar dari database\n\nᴹᴿ᭄ Ranzz Nation ×፝֟͜×')
 
 }
 
