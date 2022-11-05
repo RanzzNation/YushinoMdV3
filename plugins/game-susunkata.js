@@ -32,7 +32,7 @@ ${json.soal}
 
 ⏳Timeout *${(timeout / 1000).toFixed(2)} detik*
 
-💬Ketik ${usedPrefix}suska untuk bantuan
+💬Ketik ${usedPrefix}suka untuk bantuan
 
 ➕Bonus: ${money} Money
 
