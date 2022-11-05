@@ -13,7 +13,6 @@ let handler = async (m, {usedPrefix}) => {
   if (new Date - user.lastclaim < cooldown) return conn.sendButton(m.chat, 
 
 '*–––––『 COOLDOWN 』–––––*',
-
 `ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ *ᴛᴏᴅᴀʏ ʀᴇᴡᴀʀᴅs*, ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ ᴛɪʟʟ ᴄᴏᴏʟᴅᴏᴡɴ ғɪɴɪsʜ.
 
 ⏱️ ${((user.lastclaim + cooldown) - new Date()).toTimeString()}`.trim(), './media/cooldown.jpg', [
