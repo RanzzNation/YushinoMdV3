@@ -39,16 +39,16 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6289697155781', 'Ahmad ID', true],
-['6289697155781', 'AHMAD FOUR', true]
+['6282124516861', 'Ahmad ID', true],
+['6282124516861', 'AHMAD FOUR', true]
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '6289697155781'
-global.nomorown = '6289697155781'
-global.nomorown1 = '6289697155781'
-global.nomorown2 = '6289697155781'
-global.nomorwa = '6289697155781'
+global.nomorbot = '6282124516861'
+global.nomorown = '6282124516861'
+global.nomorown1 = '6282124516861'
+global.nomorown2 = '6282124516861'
+global.nomorwa = '6282124516861'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -94,7 +94,7 @@ global.psaweria = '-'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.ListHargaSewa = '├ 5 Hari IDR 3.000\n├ 7 Hari IDR 5.000\n├ 15+5 Hari IDR 10.000\n├ 30 Hari IDR 15.000'
+global.ListHargaSewa = '├ 2 Minggu IDR 2.000\n├ 1 Bulan IDR 4.000\n├ Permanen IDR 6.000'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.LyAtas1 = '☰ ━━━ ❨'
 global.LyAtas2 = '❩ ━━┄┈ •⟅'
@@ -306,7 +306,7 @@ global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.urlnya = "https://instagram.com/ahmadstoreeee?igshid=MDE2OWE1N2Q="
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '0896 9715 5781'
+global.phn = '0821 2451 6861'
 
 global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
